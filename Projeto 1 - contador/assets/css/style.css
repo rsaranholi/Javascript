@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+    color: black;
+    background-color: #959595;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(143, 122, 122);
+    background-color: rgb(230, 230, 230);
+    color: rgb(143, 122, 122);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
+button:disabled{
+    background-color: #959595;
+}
+#tabela{
+    width: 250px;
+    height: 150px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 100px;
+}
